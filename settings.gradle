@@ -1,0 +1,3 @@
+rootProject.name = 'The-way-for-netty'
+include '001-hello-netty'
+
