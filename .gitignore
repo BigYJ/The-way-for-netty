@@ -4,7 +4,8 @@
 gradle-app.setting
 .gradletasknamecache
 !gradle/wrapper/gradle-wrapper.jar
-
+*.bin
+*.lock
 ### STS ###
 .apt_generated
 .classpath
@@ -21,7 +22,7 @@ gradle-app.setting
 *.ipr
 /out/
 rebel.xml
-
+*.class
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -60,3 +61,5 @@ local.properties
 .mymetadata
 
 rebel.xml
+/.gradle/
+/.idea/

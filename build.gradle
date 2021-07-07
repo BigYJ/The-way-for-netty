@@ -2,13 +2,20 @@ plugins {
     id 'java'
 }
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
+    maven { url 'https://maven.aliyun.com/repository/public/' }
     mavenCentral()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile(
+            "io.netty:netty-all:4.1.48.Final"
+    )
 }
