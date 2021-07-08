@@ -1,4 +1,5 @@
 rootProject.name = 'The-way-for-netty'
 include '001-hello-netty'
 include '02-netty-client'
+include '003-netty-chat'
 
