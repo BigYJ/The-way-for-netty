@@ -39,8 +39,8 @@ public class MyChatHandler extends SimpleChannelInboundHandler<String> {
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        //自动移除
-        channels.remove(ctx.channel());
+        //自动移除,无需手动移除
+        //channels.remove(ctx.channel());
         channels.writeAndFlush("client "+channel.remoteAddress()+" leave"+"\n");
     }
 
