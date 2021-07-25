@@ -3,4 +3,5 @@ include '001-hello-netty'
 include '002-netty-client'
 include '003-netty-chat'
 include '004-netty-heartbeat'
+include '005-netty-websocket-demo'
 
